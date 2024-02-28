@@ -5,11 +5,11 @@
 ## Data Extraction
 - For each of the articles, given in the input.xlsx file, extract the article text and save the extracted article in a text file with URL_ID as its file name. While extracting text program extracts only the article title and the article text. It does not extract the website header, footer, or anything other than the article text.
 
- - ###### NOTE: YOU MUST USE PYTHON PROGRAMMING TO EXTRACT DATA FROM THE URLs. YOU CAN USE BEATIFULSOUP, SELENIUM OR SCRAPY, OR ANY OTHER PYTHON LIBRARIES THAT YOU PREFER FOR DATA CRAWLING. 
+  - ###### NOTE: YOU MUST USE PYTHON PROGRAMMING TO EXTRACT DATA FROM THE URLs. YOU CAN USE BEATIFULSOUP, SELENIUM OR SCRAPY, OR ANY OTHER PYTHON LIBRARIES THAT YOU PREFER FOR DATA CRAWLING. 
 
 ## Data Analysis
 - For each of the extracted texts from the article, did textual analysis and computed variables.
- - ###### NOTE: YOU MUST USE PYTHON PROGRAMMING FOR THE DATA ANALYSIS
+  - ###### NOTE: YOU MUST USE PYTHON PROGRAMMING FOR THE DATA ANALYSIS
 
 ## Variables
 - The definition of each of the variables given below .Look for these variables in the analysis document :
@@ -40,22 +40,22 @@
 - This score is calculated by assigning the value of -1 for each word if found in the Negative Dictionary and then adding up all the values. We multiply the score with -1 so that the score is a positive number.
 ##### Polarity Score:
 - This is the score that determines if a given text is positive or negative in nature. It is calculated by using the formula: 
- - ###### (Positive Score – Negative Score)/ ((Positive Score + Negative Score) + 0.000001)
+  - ###### (Positive Score – Negative Score)/ ((Positive Score + Negative Score) + 0.000001)
    - Range is from -1 to +1
 #### Subjectivity Score:
 - This is the score that determines if a given text is objective or subjective. It is calculated by using the formula: 
- - ###### (Positive Score + Negative Score)/ ((Total Words after cleaning) + 0.000001)
+  - ###### (Positive Score + Negative Score)/ ((Total Words after cleaning) + 0.000001)
    - Range is from 0 to +1
 
 #### Analysis of Readability
 - Analysis of Readability is calculated using the Gunning Fox index formula described below.
- - ###### Average Sentence Length = the number of words / the number of sentences
- - ###### Percentage of Complex words = the number of complex words / the number of words 
- - ###### Fog Index = 0.4 * (Average Sentence Length + Percentage of Complex words)
+  - ###### Average Sentence Length = the number of words / the number of sentences
+  - ###### Percentage of Complex words = the number of complex words / the number of words 
+  - ###### Fog Index = 0.4 * (Average Sentence Length + Percentage of Complex words)
 
 #### Average Number of Words Per Sentence
 - The formula for calculating is:
- - ###### Average Number of Words Per Sentence = the total number of words / the total number of sentences
+  - ###### Average Number of Words Per Sentence = the total number of words / the total number of sentences
 
 ### Complex Word Count
 ##### Complex words are words in the text that contain more than two syllables.
@@ -73,7 +73,7 @@
 
 #### Average Word Length
 - Average Word Length is calculated by the formula:
- - ###### Sum of the total number of characters in each word/Total number of words
+  - ###### Sum of the total number of characters in each word/Total number of words
 
 ### Output Data Structure
 Output Variables: 
