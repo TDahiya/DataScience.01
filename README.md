@@ -33,7 +33,7 @@
 #### Creating a dictionary of Positive and Negative words
 - The Master Dictionary (found in the folder MasterDictionary) is used for creating a dictionary of Positive and Negative words. We add only those words in the dictionary if they are not found in the Stop Words Lists. 
 #### Extracting Derived variables
-We convert the text into a list of tokens using the nltk tokenize module and use these tokens to calculate the 4 variables described below:
+- We convert the text into a list of tokens using the nltk tokenize module and use these tokens to calculate the 4 variables described below:
 ##### Positive Score:
 - This score is calculated by assigning the value of +1 for each word if found in the Positive Dictionary and then adding up all the values.
 ##### Negative Score:
